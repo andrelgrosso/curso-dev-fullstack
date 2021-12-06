@@ -1,0 +1,33 @@
+ .exemplo{
+    border: 1px solid black; 
+    padding: 20px;
+    margin: 20px;
+ }
+ 
+ 
+ .exemplo1 p.red {
+     /*combinator ou combinação, quando combina 02 ou mais classes*/
+     color: red;
+ }
+
+ .margin {
+     margin: 50px;
+ }
+
+ h1,
+ h2,
+ h3 {
+     color: blue;
+ }
+
+ .exemplo2 > p{ /* > ira aplicar a regra somente as tags filhas direto */
+     color: blue;
+ }
+
+ .exemplo3 + p{/*pega o primeiro elemento do irmão direto selecionado*/
+     color: red;
+ }
+
+ .exemplo4 ~ p{/*pega todos elementro da tag irmão selecionado*/
+    color: green;
+}

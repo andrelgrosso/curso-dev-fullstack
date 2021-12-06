@@ -1,0 +1,21 @@
+/*a {
+    width: 150px;
+    height: 150px;
+    display: inline-block; block
+}*/
+
+body {
+    background: url(https://services.meteored.com/img/article/cientistas-podem-ter-descoberto-a-quinta-forca-fundamental-do-universo-220621-1_768.jpg)
+}
+
+
+ul {
+    background: grey;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
